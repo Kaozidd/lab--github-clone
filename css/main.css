@@ -1,0 +1,130 @@
+body {
+  margin: 0; }
+
+.navbar {
+  background: #24292E;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center; }
+  .navbar .git-logo {
+    height: 35px;
+    width: 35px;
+    margin-right: 15px; }
+  .navbar .userSearch {
+    height: 32px;
+    color: #B8B9BA;
+    background-color: #404448;
+    padding-left: 15px;
+    margin-right: 0;
+    border: none;
+    border-radius: 5px; }
+  .navbar__select {
+    list-style-type: none;
+    padding-left: 5px; }
+    .navbar__select li {
+      display: inline-block;
+      margin: 0 5px;
+      color: #C8C9CA;
+      font-weight: 500; }
+  .navbar__icons {
+    list-style-type: none; }
+    .navbar__icons li {
+      display: inline-block;
+      color: #C8C9CA;
+      position: relative;
+      bottom: 5px;
+      margin: 0 10px; }
+      .navbar__icons li img {
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top: 6px;
+        border-radius: 5px; }
+    .navbar__icons .fa-sort-down {
+      padding-left: 6px;
+      position: relative;
+      bottom: 5px; }
+
+.container {
+  display: flex;
+  position: relative;
+  width: 60%;
+  left: 20%; }
+  .container__profile {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px; }
+    .container__profile__pic {
+      width: 240px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 8px; }
+    .container__profile__name {
+      margin: 0;
+      margin-top: 20px;
+      font-size: 22px; }
+    .container__profile__userName {
+      margin: 0;
+      margin-bottom: 5px;
+      font-size: 16px; }
+    .container__profile__bio {
+      margin: 5px 0; }
+    .container__profile__follow {
+      height: 40px;
+      border: 1px solid #999;
+      border-radius: 5px;
+      font-weight: bold; }
+    .container__profile__block {
+      text-decoration: none;
+      color: #888;
+      font-size: 14px;
+      padding: 10px 0;
+      border-bottom: 1px solid #BBB; }
+    .container__profile__icons {
+      list-style-type: none;
+      padding: 0; }
+      .container__profile__icons li {
+        font-size: 14px;
+        padding: 2px 0; }
+      .container__profile__icons i {
+        padding: 0 5px; }
+  .container__repos {
+    flex-grow: 3;
+    padding: 0 15px; }
+    .container__repos__nav ul {
+      list-style-type: none;
+      border-bottom: 1px solid #999; }
+      .container__repos__nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+        padding-bottom: 5px; }
+    .container__repos__search {
+      border-bottom: 1px solid #999;
+      padding-bottom: 15px; }
+    .container__repos__repo {
+      border-bottom: 1px solid #999; }
+      .container__repos__repo__title {
+        color: blue; }
+      .container__repos__repo__para {
+        color: #777; }
+      .container__repos__repo__info {
+        list-style-type: none;
+        padding-left: 0;
+        color: #666; }
+        .container__repos__repo__info li {
+          display: inline-block;
+          margin: 0 10px; }
+
+#select {
+  border-bottom: 2px solid orange; }
+
+.circle {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px; }
